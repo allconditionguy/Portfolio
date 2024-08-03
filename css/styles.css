@@ -421,3 +421,15 @@ a.nav-link:hover {
   text-decoration: none;
   color: black;
 }
+
+.horizontal-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.horizontal-icons .icon {
+  margin-bottom:20px; 
+
+}
