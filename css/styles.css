@@ -412,3 +412,12 @@ a.nav-link:hover {
 .highlight-blue {
   color: #6ac4ff;
 }
+
+.conspicuous-link {
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
