@@ -422,14 +422,18 @@ a.nav-link:hover {
   color: black;
 }
 
-.horizontal-icons {
+.container.horizontal-icons {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  
+  justify-content: center;
+  gap: 10px; 
 }
 
-.horizontal-icons .icon {
-  margin-bottom:20px; 
+.icon {
+  display: flex;
+  align-items: center;
+}
 
+.img.socials {
+  max-width: 100%;
+  height: auto;
 }
